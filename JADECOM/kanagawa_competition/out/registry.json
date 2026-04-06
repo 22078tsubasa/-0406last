@@ -1,0 +1,17 @@
+{
+  "神奈川県": {
+    "label": "神奈川県",
+    "facilities": [
+      {
+        "key": "yamakita",
+        "label": "山北町立山北診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/kanagawa_competition/out/神奈川県/yamakita/manifest.json"
+      },
+      {
+        "key": "manazuru",
+        "label": "真鶴町国民健康保険診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/kanagawa_competition/out/神奈川県/manazuru/manifest.json"
+      }
+    ]
+  }
+}

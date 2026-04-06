@@ -1,0 +1,17 @@
+{
+  "群馬県": {
+    "label": "群馬県",
+    "facilities": [
+      {
+        "key": "kuni",
+        "label": "六合診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/manifest.json"
+      },
+      {
+        "key": "tsumagoi",
+        "label": "嬬恋村国民健康保険診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/tsumagoi/manifest.json"
+      }
+    ]
+  }
+}

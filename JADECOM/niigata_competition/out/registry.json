@@ -1,0 +1,12 @@
+{
+  "新潟県": {
+    "label": "新潟県",
+    "facilities": [
+      {
+        "key": "yukiakari",
+        "label": "公益社団法人 地域医療振興協会 今泉記念館 ゆきあかり診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/niigata_competition/out/新潟県/yukiakari/manifest.json"
+      }
+    ]
+  }
+}

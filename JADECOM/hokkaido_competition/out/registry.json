@@ -1,0 +1,12 @@
+{
+  "北海道": {
+    "label": "北海道",
+    "facilities": [
+      {
+        "key": "toyokoro",
+        "label": "豊頃町立豊頃医院",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/hokkaido_competition/out/北海道/toyokoro/manifest.json"
+      }
+    ]
+  }
+}

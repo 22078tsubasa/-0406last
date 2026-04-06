@@ -1,0 +1,12 @@
+{
+  "山口県": {
+    "label": "山口県",
+    "facilities": [
+      {
+        "key": "tokuji",
+        "label": "山口市徳地診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/yamaguchi_competition/out/山口県/tokuji/manifest.json"
+      }
+    ]
+  }
+}

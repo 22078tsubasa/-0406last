@@ -1,0 +1,47 @@
+[
+  {
+    "facility_name": "秦野メディカルクリニック",
+    "folder": "/Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/035_秦野メディカルクリニック",
+    "status": "ok",
+    "returncode": 0,
+    "elapsed_sec": 62.4,
+    "stdout": "[start] 秦野メディカルクリニック\n[nav] 秦野メディカルクリニック -> target page\n[modal] 秦野メディカルクリニック\n[conditions] 秦野メディカルクリニック\n[download-wait] 秦野メディカルクリニック\n[csv-fetch] 秦野メディカルクリニック\n秦野メディカルクリニック -> ok\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/kddi_download_status.csv\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/_summary.json\n",
+    "stderr": ""
+  },
+  {
+    "facility_name": "大秦野内科クリニック",
+    "folder": "/Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/036_大秦野内科クリニック",
+    "status": "ok",
+    "returncode": 0,
+    "elapsed_sec": 84.6,
+    "stdout": "[start] 大秦野内科クリニック\n[nav] 大秦野内科クリニック -> target page\n[modal] 大秦野内科クリニック\n[conditions] 大秦野内科クリニック\n[download-wait] 大秦野内科クリニック\n[csv-fetch] 大秦野内科クリニック\n大秦野内科クリニック -> ok\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/kddi_download_status.csv\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/_summary.json\n",
+    "stderr": ""
+  },
+  {
+    "facility_name": "秦野寿町クリニック",
+    "folder": "/Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/037_秦野寿町クリニック",
+    "status": "ok",
+    "returncode": 0,
+    "elapsed_sec": 63.8,
+    "stdout": "[start] 秦野寿町クリニック\n[nav] 秦野寿町クリニック -> target page\n[modal] 秦野寿町クリニック\n[conditions] 秦野寿町クリニック\n[download-wait] 秦野寿町クリニック\n[csv-fetch] 秦野寿町クリニック\n秦野寿町クリニック -> ok\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/kddi_download_status.csv\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/_summary.json\n",
+    "stderr": ""
+  },
+  {
+    "facility_name": "宮野内科・小児科医院",
+    "folder": "/Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/038_宮野内科・小児科医院",
+    "status": "ok",
+    "returncode": 0,
+    "elapsed_sec": 85.3,
+    "stdout": "[start] 宮野内科・小児科医院\n[nav] 宮野内科・小児科医院 -> target page\n[modal] 宮野内科・小児科医院\n[conditions] 宮野内科・小児科医院\n[download-wait] 宮野内科・小児科医院\n[csv-fetch] 宮野内科・小児科医院\n宮野内科・小児科医院 -> ok\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/kddi_download_status.csv\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/_summary.json\n",
+    "stderr": ""
+  },
+  {
+    "facility_name": "安部内科胃腸科クリニック",
+    "folder": "/Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/039_安部内科胃腸科クリニック",
+    "status": "ok",
+    "returncode": 0,
+    "elapsed_sec": 87.0,
+    "stdout": "[start] 安部内科胃腸科クリニック\n[nav] 安部内科胃腸科クリニック -> target page\n[modal] 安部内科胃腸科クリニック\n[conditions] 安部内科胃腸科クリニック\n[download-wait] 安部内科胃腸科クリニック\n[csv-fetch] 安部内科胃腸科クリニック\n安部内科胃腸科クリニック -> ok\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/kddi_download_status.csv\nsaved: /Users/itotsubasa/Downloads/jadecom/4:6/神奈川/山北町立山北診療所/_summary.json\n",
+    "stderr": ""
+  }
+]

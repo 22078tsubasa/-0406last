@@ -1,0 +1,17 @@
+{
+  "三重県": {
+    "label": "三重県",
+    "facilities": [
+      {
+        "key": "nagaoka",
+        "label": "鳥羽市立長岡診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/mie_competition/out/三重県/nagaoka/manifest.json"
+      },
+      {
+        "key": "hamajima",
+        "label": "志摩市立国民健康保険浜島診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/mie_competition/out/三重県/hamajima/manifest.json"
+      }
+    ]
+  }
+}

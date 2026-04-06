@@ -1,0 +1,37 @@
+{
+  "静岡県": {
+    "label": "静岡県",
+    "facilities": [
+      {
+        "key": "nishiizu_arari",
+        "label": "西伊豆町安良里診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/nishiizu_arari/manifest.json"
+      },
+      {
+        "key": "nishiizu_tago",
+        "label": "西伊豆町田子診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/nishiizu_tago/manifest.json"
+      },
+      {
+        "key": "inasa",
+        "label": "いなずさ診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/inasa/manifest.json"
+      },
+      {
+        "key": "kamikawazu",
+        "label": "上河津診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/kamikawazu/manifest.json"
+      },
+      {
+        "key": "heda",
+        "label": "戸田診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/heda/manifest.json"
+      },
+      {
+        "key": "izushimoda",
+        "label": "伊豆下田診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/shizuoka_competition/out/静岡県/izushimoda/manifest.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "山形県": {
+    "label": "山形県",
+    "facilities": [
+      {
+        "key": "okitama",
+        "label": "おきたまフラワークリニック",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/yamagata_competition/out/山形県/okitama/manifest.json"
+      }
+    ]
+  }
+}

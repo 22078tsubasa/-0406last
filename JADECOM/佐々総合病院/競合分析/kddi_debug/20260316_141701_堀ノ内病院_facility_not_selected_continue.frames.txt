@@ -1,0 +1,2 @@
+[0] name= url=https://kla.kddi.ne.jp/map/
+[1] name= url=about:blank

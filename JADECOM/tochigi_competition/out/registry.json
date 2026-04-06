@@ -1,0 +1,12 @@
+{
+  "栃木県": {
+    "label": "栃木県",
+    "facilities": [
+      {
+        "key": "ogawa",
+        "label": "日光市立小来川診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/tochigi_competition/out/栃木県/ogawa/manifest.json"
+      }
+    ]
+  }
+}

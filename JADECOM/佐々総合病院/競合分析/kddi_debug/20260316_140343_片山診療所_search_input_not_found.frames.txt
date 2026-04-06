@@ -1,0 +1,1 @@
+[0] name= url=https://kla.kddi.ne.jp/account/login/?next=/map/

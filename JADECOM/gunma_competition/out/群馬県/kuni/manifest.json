@@ -1,0 +1,25 @@
+{
+  "prefecture": "群馬県",
+  "facility": "六合診療所",
+  "scope": "自動車30分圏内の町丁目",
+  "password_default": "shibaura2026",
+  "images": {
+    "全体勢力図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/dominant_territory_all.png",
+    "対象施設+上位5勢力図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/dominant_territory_target_plus5.png",
+    "上位10ヒートマップ図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_med_heatmap_top10.png",
+    "上位3マトリクス図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_med_matrix_top3.png",
+    "グラフ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_med_graph_top60.png"
+  },
+  "csvs": {
+    "全体勢力図データ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/dominant_territory_all_result.csv",
+    "対象施設+上位5勢力図データ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/dominant_territory_target_plus5_result.csv",
+    "上位10マトリクスCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_med_heatmap_top10.csv",
+    "上位3マトリクスCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_med_matrix_top3_only.csv",
+    "施設ランキングCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/facility_rank_summary.csv",
+    "選定施設CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/selected_facilities.csv",
+    "表示用ベース行列CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/base_matrix_readable.csv",
+    "町丁目別医療機関利用CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/base_matrix_readable.csv",
+    "町丁目×医療機関統合CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gunma_competition/out/群馬県/kuni/town_facility_matrix.csv"
+  },
+  "car30_town_count": 21
+}

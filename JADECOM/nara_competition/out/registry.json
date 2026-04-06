@@ -1,0 +1,32 @@
+{
+  "奈良県": {
+    "label": "奈良県",
+    "facilities": [
+      {
+        "key": "tawara",
+        "label": "奈良市立田原診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/nara_competition/out/奈良県/tawara/manifest.json"
+      },
+      {
+        "key": "tsukigase",
+        "label": "奈良市立月ヶ瀬診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/nara_competition/out/奈良県/tsukigase/manifest.json"
+      },
+      {
+        "key": "koto",
+        "label": "奈良市立興東診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/nara_competition/out/奈良県/koto/manifest.json"
+      },
+      {
+        "key": "asuka",
+        "label": "明日香村国民健康保険診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/nara_competition/out/奈良県/asuka/manifest.json"
+      },
+      {
+        "key": "tsuge",
+        "label": "奈良市立都祁診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/nara_competition/out/奈良県/tsuge/manifest.json"
+      }
+    ]
+  }
+}

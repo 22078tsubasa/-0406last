@@ -1,0 +1,17 @@
+{
+  "青森県": {
+    "label": "青森県",
+    "facilities": [
+      {
+        "key": "shiranuka",
+        "label": "白糠診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/shiranuka/manifest.json"
+      },
+      {
+        "key": "higashidori",
+        "label": "東通地域医療センター(東通村保健福祉センター・東通村診療所・介護老人保健施設のはなしょうぶ)",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/manifest.json"
+      }
+    ]
+  }
+}

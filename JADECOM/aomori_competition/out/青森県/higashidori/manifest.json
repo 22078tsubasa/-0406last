@@ -1,0 +1,26 @@
+{
+  "prefecture": "青森県",
+  "facility": "東通地域医療センター(東通村保健福祉センター・東通村診療所・介護老人保健施設のはなしょうぶ)",
+  "scope": "北青.csv の自動車30分圏町丁目",
+  "password_default": "shibaura2026",
+  "images": {
+    "全体勢力図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/dominant_territory_all.png",
+    "対象施設+上位5勢力図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/dominant_territory_target_plus5.png",
+    "上位10ヒートマップ図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_med_heatmap_top10.png",
+    "上位3マトリクス図": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_med_matrix_top3.png",
+    "グラフ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_med_graph_top60.png"
+  },
+  "csvs": {
+    "全体勢力図データ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/dominant_territory_all_result.csv",
+    "対象施設+上位5勢力図データ": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/dominant_territory_target_plus5_result.csv",
+    "上位10マトリクスCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_med_heatmap_top10.csv",
+    "上位3マトリクスCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_med_matrix_top3_only.csv",
+    "施設ランキングCSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/facility_rank_summary.csv",
+    "選定施設CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/selected_facilities.csv",
+    "表示用ベース行列CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/base_matrix_readable.csv",
+    "町丁目別医療機関利用CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/base_matrix_readable.csv",
+    "町丁目×医療機関統合CSV": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/town_facility_matrix.csv",
+    "町丁目×医療機関統合CSV_日本語名": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/aomori_competition/out/青森県/higashidori/東通地域医療センター(東通村保健福祉センター・東通村診療所・介護老人保健施設のはなしょうぶ)周辺の町丁目_各医療施設利用数_KLA統合.csv"
+  },
+  "town_count": 60
+}

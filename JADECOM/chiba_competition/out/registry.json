@@ -1,0 +1,17 @@
+{
+  "千葉県": {
+    "label": "千葉県",
+    "facilities": [
+      {
+        "key": "obitsu",
+        "label": "小櫃診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/chiba_competition/out/千葉県/obitsu/manifest.json"
+      },
+      {
+        "key": "matsuoka",
+        "label": "君津市国保松丘診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/chiba_competition/out/千葉県/matsuoka/manifest.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "東京都": {
+    "label": "東京都",
+    "facilities": [
+      {
+        "key": "furusato",
+        "label": "古里診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/tokyo_competition/out/東京都/furusato/manifest.json"
+      }
+    ]
+  }
+}
