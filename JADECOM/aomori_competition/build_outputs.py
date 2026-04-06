@@ -378,6 +378,7 @@ def draw_territory(
     title: str,
     out_png: Path,
     color_map: dict[str, object],
+    shp_path: Path,
     ref_lon: float,
     ref_lat: float,
     target_label: str,
@@ -389,7 +390,16 @@ def draw_territory(
     facecolors = gdfm[plot_col].map(color_map).fillna("#d9d9d9")
     gdfm.plot(ax=ax, color=facecolors, edgecolor="#d4d4d4", linewidth=0.18)
 
-    clinic = gpd.GeoDataFrame({"name": [target_label]}, geometry=[Point(ref_lon, ref_lat)], crs="EPSG:4326").to_crs(gdfm.crs)
+    clinic_src = gpd.read_file(shp_path)[["geometry"]].copy().to_crs(4326)
+    clinic_point_4326 = Point(ref_lon, ref_lat)
+    clinic_town = clinic_src[clinic_src.contains(clinic_point_4326)].copy()
+    if not clinic_town.empty:
+        clinic_town = clinic_town.to_crs(gdfm.crs)
+        clinic_town.plot(ax=ax, color="#d9d9d9", edgecolor="none", linewidth=0, zorder=18)
+        rep_point = clinic_town.geometry.representative_point().iloc[0]
+        clinic = gpd.GeoDataFrame({"name": [target_label]}, geometry=[rep_point], crs=gdfm.crs)
+    else:
+        clinic = gpd.GeoDataFrame({"name": [target_label]}, geometry=[Point(ref_lon, ref_lat)], crs="EPSG:4326").to_crs(gdfm.crs)
     clinic.plot(ax=ax, color="white", marker="*", markersize=260, zorder=999)
     clinic.plot(ax=ax, color="black", marker="*", markersize=180, zorder=1000)
 
@@ -617,6 +627,7 @@ def export_for_facility(pref_key: str, pref_cfg: dict, facility_cfg: dict) -> di
         f"{facility_cfg['label']} 競合分析 全体勢力図",
         map_all_png,
         color_map_all,
+        pref_cfg["shp_path"],
         facility_cfg["ref_lon"],
         facility_cfg["ref_lat"],
         facility_cfg["target_keyword"],
@@ -643,6 +654,7 @@ def export_for_facility(pref_key: str, pref_cfg: dict, facility_cfg: dict) -> di
         f"{facility_cfg['label']} + 上位5勢力図",
         map_plus5_png,
         color_map_plus5,
+        pref_cfg["shp_path"],
         facility_cfg["ref_lon"],
         facility_cfg["ref_lat"],
         facility_cfg["target_keyword"],
