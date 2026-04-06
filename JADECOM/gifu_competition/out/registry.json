@@ -1,0 +1,32 @@
+{
+  "岐阜県": {
+    "label": "岐阜県",
+    "facilities": [
+      {
+        "key": "kasuga",
+        "label": "揖斐川町春日診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gifu_competition/out/岐阜県/kasuga/manifest.json"
+      },
+      {
+        "key": "tanigumi",
+        "label": "揖斐川町谷汲中央診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gifu_competition/out/岐阜県/tanigumi/manifest.json"
+      },
+      {
+        "key": "tsubogawa",
+        "label": "関市国民健康保険津保川診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gifu_competition/out/岐阜県/tsubogawa/manifest.json"
+      },
+      {
+        "key": "yamaoka",
+        "label": "恵那市国民健康保険山岡診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gifu_competition/out/岐阜県/yamaoka/manifest.json"
+      },
+      {
+        "key": "ibigawa",
+        "label": "いびがわ診療所",
+        "manifest": "/Users/itotsubasa/IdeaProjects/pythoN/JADECOM/gifu_competition/out/岐阜県/ibigawa/manifest.json"
+      }
+    ]
+  }
+}
