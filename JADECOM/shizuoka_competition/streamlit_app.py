@@ -15,6 +15,7 @@ from config import DEFAULT_PASSWORD, OUT_ROOT
 
 REGISTRY_PATH = OUT_ROOT / "registry.json"
 COMPETITION_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = COMPETITION_ROOT.parent
 EXTRA_REGISTRY_PATHS = sorted(
     path
     for path in COMPETITION_ROOT.glob("*_competition/out/registry.json")
@@ -39,6 +40,24 @@ ZOOM_DEFAULT = 140
 
 def file_ok(path: Path) -> bool:
     return path.exists() and path.is_file()
+
+
+def resolve_repo_path(path_like: str | Path) -> Path:
+    path = Path(path_like)
+    if path.exists():
+        return path
+    text = str(path_like)
+    marker = "JADECOM/"
+    if marker in text:
+        rel = text.split(marker, 1)[1]
+        candidate = REPO_ROOT / marker / rel
+        if candidate.exists():
+            return candidate
+    if not path.is_absolute():
+        candidate = REPO_ROOT / path
+        if candidate.exists():
+            return candidate
+    return path
 
 
 def read_csv_safely(path: Path) -> pd.DataFrame:
@@ -141,15 +160,16 @@ def load_registry() -> dict:
             if pref_key not in merged:
                 merged[pref_key] = {
                     "label": pref_data.get("label", pref_key),
-                    "facilities": list(pref_data.get("facilities", [])),
+                    "facilities": [],
                 }
-                continue
-
             existing = {f["key"] for f in merged[pref_key]["facilities"]}
             for facility in pref_data.get("facilities", []):
-                if facility["key"] not in existing:
-                    merged[pref_key]["facilities"].append(facility)
-                    existing.add(facility["key"])
+                normalized = dict(facility)
+                if "manifest" in normalized:
+                    normalized["manifest"] = str(resolve_repo_path(normalized["manifest"]))
+                if normalized["key"] not in existing:
+                    merged[pref_key]["facilities"].append(normalized)
+                    existing.add(normalized["key"])
 
     if not found:
         st.error(f"registry not found: {REGISTRY_PATH}")
@@ -159,10 +179,14 @@ def load_registry() -> dict:
 
 
 def load_manifest(path: Path) -> dict:
+    path = resolve_repo_path(path)
     if not file_ok(path):
         st.error(f"manifest not found: {path}")
         st.stop()
-    return json.loads(path.read_text(encoding="utf-8"))
+    manifest = json.loads(path.read_text(encoding="utf-8"))
+    manifest["images"] = {k: str(resolve_repo_path(v)) for k, v in manifest.get("images", {}).items()}
+    manifest["csvs"] = {k: str(resolve_repo_path(v)) for k, v in manifest.get("csvs", {}).items()}
+    return manifest
 
 
 def adjust_zoom(state_key: str, delta: int) -> None:
