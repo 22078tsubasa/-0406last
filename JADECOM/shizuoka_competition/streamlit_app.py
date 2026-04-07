@@ -400,11 +400,5 @@ def main() -> None:
     with data_tab:
         render_data_tab(csv_files, scope, target_plus5_label)
 
-    st.info(
-        "起動コマンド: `cd /Users/itotsubasa/IdeaProjects/pythoN && "
-        "./.venv/bin/streamlit run JADECOM/shizuoka_competition/streamlit_app.py`"
-    )
-
-
 if __name__ == "__main__":
     main()
